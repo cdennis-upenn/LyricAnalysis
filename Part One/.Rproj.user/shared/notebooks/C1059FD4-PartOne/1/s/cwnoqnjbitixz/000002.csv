@@ -1,0 +1,4 @@
+"0","# function to remove special characters"
+"0","removeSpecialChars <- function(x) gsub(""[^a-zA-Z0-9 ]"", "" "", x)"
+"0","# remove special characters"
+"0","prince$lyrics <- sapply(prince$lyrics, removeSpecialChars)"

@@ -1,0 +1,8 @@
+"0","#create a binary field to indicate whether a song charted at all"
+"0","prince <- prince %>%"
+"0","  mutate(charted = "
+"0","           ifelse(prince$peak %in% 1:100, ""Charted"", ""Uncharted""))"
+"0",""
+"0","#save the new data set for future use"
+"0",""
+"0","write.csv(prince, file = ""prince_new.csv"")"

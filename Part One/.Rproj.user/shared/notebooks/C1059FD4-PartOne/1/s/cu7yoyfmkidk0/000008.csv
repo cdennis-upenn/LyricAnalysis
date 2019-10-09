@@ -1,0 +1,14 @@
+"0"," prince_words_filtered %>% 
+  filter(word == ""race"") %>%
+  select(word, song, year, peak, decade, chart_level, charted) %>%
+  arrange() %>%
+  top_n(10,song) %>%
+  mutate(song = color_tile(""lightblue"",""lightblue"")(song)) %>%
+  mutate(word = color_tile(""lightgreen"",""lightgreen"")(word)) %>%
+  kable(""html"", escape = FALSE, align = ""c"", caption = ""Tokenized Format Example"") %>%
+  kable_styling(bootstrap_options = 
+                  c(""striped"", ""condensed"", ""bordered""), 
+                  full_width = FALSE)
+"
+"2","NAs introduced by coercion"
+"2","NAs introduced by coercion"

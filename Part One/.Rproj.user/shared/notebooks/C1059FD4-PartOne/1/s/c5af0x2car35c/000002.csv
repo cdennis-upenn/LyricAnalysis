@@ -1,0 +1,12 @@
+"0",""
+"0","#create the decade column"
+"0","prince <- prince %>%"
+"0","  mutate(decade = "
+"0","           ifelse(prince$year %in% 1978:1979, ""1970s"","
+"0","           ifelse(prince$year %in% 1980:1989, ""1980s"","
+"0","           ifelse(prince$year %in% 1990:1999, ""1990s"",  "
+"0","           ifelse(prince$year %in% 2000:2009, ""2000s"","
+"0","           ifelse(prince$year %in% 2010:2015, ""2010s"",  "
+"0","                  ""NA""))))))"
+"2","The `printer` argument is deprecated as of rlang 0.3.0.
+[90mThis warning is displayed once per session.[39m"

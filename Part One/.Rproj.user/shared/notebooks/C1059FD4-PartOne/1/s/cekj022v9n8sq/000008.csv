@@ -1,0 +1,10 @@
+"0","full_word_count[1:10,] %>%
+  ungroup(num_words, song) %>%
+  mutate(num_words = color_bar(""lightblue"")(num_words)) %>%
+  mutate(song = color_tile(""lightpink"",""lightpink"")(song)) %>%
+  kable(""html"", escape = FALSE, align = ""c"", caption = ""Songs With Highest Word Count"") %>%
+  kable_styling(bootstrap_options = 
+                  c(""striped"", ""condensed"", ""bordered""), 
+                  full_width = FALSE)
+"
+"2","NAs introduced by coercion"

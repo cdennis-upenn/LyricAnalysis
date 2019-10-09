@@ -1,0 +1,2 @@
+"0","# convert everything to lower case"
+"0","prince$lyrics <- sapply(prince$lyrics, tolower)"
